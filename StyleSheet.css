@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+@media(min-width: 1110px) {
+
+html, body {
+        height: 100%;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#centralSpace {
+    position : relative;
+    width: 1100px;
+    height: 446px;
+    background-color: hsl(244, 38%, 16%);
+}
+
+img {
+    position:absolute;
+    margin : 0px 0px 0px 570px;
+}
+
+#calqueViolet{
+    position : absolute;
+    margin : 0px 0px 0px 570px;
+    z-index: 1;
+    width: 540px;
+    height: 446px;
+    background-color: hsla(277,64%,61%,0.5);
+}
+
+#textZone {
+    position:absolute;
+    width : 570px;
+    height: 446px;
+    margin: auto 540px auto 0px;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    width: 403px;
+    height: 88px;
+    margin : 71px auto 0px 72px;
+    color:white;
+}
+#violet{
+    color:hsl(277, 64%, 61%);
+}
+
+#principalText{
+    position:static;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    width: 374px;
+    margin : 25px auto 0px 72.5px;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+
+.majuscule1{
+    position:absolute;
+    margin : 72px auto 0px 72.5px;
+    width: 83px;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+}
+
+.majuscule2{
+    position:absolute;
+    margin : 72px auto 0px 219px;
+    width: 83px;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+}
+
+.majuscule3{
+    position:absolute;
+    margin : 72px auto 0px 365px;
+    width: 83px;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+}
+
+.gras{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color:white;
+}
+}
