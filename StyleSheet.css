@@ -21,7 +21,7 @@ body{
     background-color: hsl(244, 38%, 16%);
 }
 
-img {
+#img {
     position:absolute;
     margin : 0px 0px 0px 570px;
 }
