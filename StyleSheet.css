@@ -21,7 +21,7 @@ body{
     background-color: hsl(244, 38%, 16%);
 }
 
-img {
+picture {
     position:absolute;
     margin : 0px 0px 0px 570px;
 }
@@ -109,15 +109,17 @@ h1{
         background-color: hsl(244, 38%, 16%);
     }
     
-    img {
+    /*picture {
         position:relative;
         margin : 0px;
         width: 327px;
-	    height: auto;
-    }
+	    height: 240px;
+    }*/
     
     #calqueViolet{
-        position : absolute;
+        background-image : url( /images/image-header-mobile.jpg );
+        background-size : 327px 240px;
+        position : relative;
         margin : 0px 0px 0px 0px;
         z-index: 1;
         width: 327px;
