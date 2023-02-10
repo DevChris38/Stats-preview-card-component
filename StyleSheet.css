@@ -109,7 +109,7 @@ h1{
         background-color: hsl(244, 38%, 16%);
     }
     
-    img {
+    #img {
         position:relative;
         margin : 0px;
         width: 327px;
