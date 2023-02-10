@@ -22,7 +22,11 @@
 
     <div id="calqueViolet"></div>
 
-    <img alt="photo violette" src="/images/image-header-desktop.jpg">
+    <picture>
+      <source media="(max-width: 1109px)" srcset="/images/image-header-mobile.jpg">
+      <source media="(min-width: 1110px)" srcset="/images/image-header-desktop.jpg">
+      <img src="/images/image-header-mobile.jpg" alt="Photo de femmes en train de travailler">
+    </picture>
 
     <div id="textZone">
     
