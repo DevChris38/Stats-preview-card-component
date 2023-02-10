@@ -21,7 +21,7 @@ body{
     background-color: hsl(244, 38%, 16%);
 }
 
-#img {
+img {
     position:absolute;
     margin : 0px 0px 0px 570px;
 }
@@ -109,11 +109,11 @@ h1{
         background-color: hsl(244, 38%, 16%);
     }
     
-    #img {
+    img {
         position:relative;
         margin : 0px;
-        width: 50%;
-        height: 50%;
+        width: 327px;
+	    height: auto;
     }
     
     #calqueViolet{
