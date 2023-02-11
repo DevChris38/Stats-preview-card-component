@@ -26,7 +26,7 @@ body{
     margin : 0px 0px 0px 570px;
     width: 540px;
     height: 446px;
-    background-image: url("/images/image-header-desktop.jpg");
+    background-image: url("images/image-header-desktop.jpg");
     background-size: cover;
 }
 
