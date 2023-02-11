@@ -21,9 +21,13 @@ body{
     background-color: hsl(244, 38%, 16%);
 }
 
-picture {
+#image {
     position:absolute;
     margin : 0px 0px 0px 570px;
+    width: 540px;
+    height: 446px;
+    background-image: url("/images/image-header-desktop.jpg");
+    background-size: cover;
 }
 
 #calqueViolet{
@@ -102,6 +106,12 @@ h1{
 
 @media(max-width: 1109px) {
     
+
+    body{
+        height: 956px;
+        widht: 375px
+
+    }
     #centralSpace {
         position : relative;
         width: 327px;
@@ -109,19 +119,18 @@ h1{
         background-color: hsl(244, 38%, 16%);
     }
     
-    /*picture {
-        position:relative;
+    #image {
+        position:absolute;
         margin : 0px;
         width: 327px;
 	    height: 240px;
-    }*/
+        background-image: url("/images/image-header-mobile.jpg");
+        background-size: cover;
+    }
     
     #calqueViolet{
-        background-image : url( /images/image-header-mobile.jpg );
-        background-size : 327px 240px;
         position : relative;
         margin : 0px 0px 0px 0px;
-        z-index: 1;
         width: 327px;
         height: 240px;
         background-color: hsla(277,64%,61%,0.5);
