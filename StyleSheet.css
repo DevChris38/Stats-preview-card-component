@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html, body {
-    height: 100%;
+    min-height:100vh;
 }
 
 body{
@@ -14,7 +14,7 @@ body{
 @media(min-width: 1110px) {
 
 
-#centralSpace {
+main {
     position : relative;
     width: 1100px;
     height: 446px;
@@ -28,15 +28,9 @@ body{
     height: 446px;
     background-image: url("images/image-header-desktop.jpg");
     background-size: cover;
-}
-
-#calqueViolet{
-    position : absolute;
-    margin : 0px 0px 0px 570px;
-    z-index: 1;
-    width: 540px;
-    height: 446px;
-    background-color: hsla(277,64%,61%,0.5);
+    background-color: #AB5CDB;
+    background-blend-mode: multiply;
+    opacity: 0.8;
 }
 
 #textZone {
@@ -112,7 +106,7 @@ h1{
         widht: 375px
 
     }
-    #centralSpace {
+    main {
         position : relative;
         width: 327px;
         height: 780px;
@@ -120,20 +114,15 @@ h1{
     }
     
     #image {
-        position:absolute;
+        position:relative;
         margin : 0px;
         width: 327px;
 	    height: 240px;
         background-image: url("images/image-header-mobile.jpg");
         background-size: cover;
-    }
-    
-    #calqueViolet{
-        position : relative;
-        margin : 0px 0px 0px 0px;
-        width: 327px;
-        height: 240px;
-        background-color: hsla(277,64%,61%,0.5);
+        background-color: #AB5CDB;
+        background-blend-mode: multiply;
+        opacity: 0.8;
     }
     
     #textZone {
@@ -209,3 +198,4 @@ h1{
         font-weight: 700;
         color:white;
     }
+}
